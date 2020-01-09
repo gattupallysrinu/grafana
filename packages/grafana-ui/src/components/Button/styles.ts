@@ -125,7 +125,8 @@ export const getButtonStyles = stylesFactory(({ theme, size, variant }: StyleDep
     `,
     // used for buttons with icon onlys
     iconButton: css`
-      padding-right: 0;
+      padding-right: ${theme.spacing.sm};
+      padding-left: 0;
     `,
     iconWrap: css`
       label: button-icon-wrap;
